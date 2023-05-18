@@ -1,0 +1,119 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    /* Background image */
+    /* background-image: url("../assets/willow.JPG"); */
+}
+
+header {
+    color: white;
+    background-color: rgb(34, 136, 0);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.75rem;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 10px 10px #BBB;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+.content-container {
+    background-color: #EEE;
+    padding-top: 8rem;
+    display: grid;
+}
+
+.restaurant-info-row {
+    padding: 20px 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.restaurant-info-row h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.restaurant-info-row li {
+    list-style-type: none;
+}
+
+.login-button {
+    background-color: white;
+    padding: 2px;
+    width: 100px;
+    border: 3px lightgray solid;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-container {
+    padding: 0 200px;
+}
+
+.menu-container h3 {
+    font-size: 1rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.menu-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-item {
+    width: 500px;
+    background-color: white;
+    /* Blend Mode */
+    /* mix-blend-mode: color-dodge; */
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 20px 0px 20px 20px;
+    margin: 30px 0;
+    border-radius: 0px 10px;
+    box-shadow: 0px 10px 10px #DDD;
+    border: 2px solid white;
+}
+
+.menu-item:hover {
+    transition: all .5s linear;
+    border: 2px solid darkgray;
+}
+
+.menu-item .text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-item .text .name {
+    align-self: flex-start;
+}
+
+/* .menu-item .text .price {
+    align-self: flex-end;
+} */
+
+
+.menu-item .description {
+    font-size: 0.8rem;
+}
+
+.menu-item-image img {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background-color: rgb(37, 51, 56);
+}
